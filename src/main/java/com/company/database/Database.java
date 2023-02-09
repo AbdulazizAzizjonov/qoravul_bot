@@ -21,9 +21,9 @@ public interface Database {
 
     static Connection getConnection() {
 
-        final String DB_USERNAME = "postgres";
-        final String DB_PASSWORD = "2004";
-        final String DB_URL = "jdbc:postgresql://localhost:5432/qoravul_bot";
+        final String DB_USERNAME = "";
+        final String DB_PASSWORD = "";
+        final String DB_URL = "jdbc:postgresql:;
 
         Connection conn = null;
         try {
